@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>点茶</title>
+		<style>
+			#int{
+                width:740px;
+				height:1520px;
+				margin:0px auto;
+				align-items: center;
+				justify-content: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position:0 0;
+            }
+			.tools{
+				width: 100%;
+				height: 100%;
+				position: relative;
+				top: -100%;
+				left: 0%;
+			}
+            .tool1{
+                width:100% ;
+                height:100%;
+                position:relative;
+                top:0%;
+                left: 0%;
+                animation: return1 2s linear 1;
+            }
+            @keyframes return1{
+				0%{opacity: 0;}
+				50%{opacity: 0.5;}
+				100%{opacity: 1;}
+			}
+            .tool1 img{
+                width: 30%;
+                height: 22.5%;
+            }
+			.tool2{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-77%;
+                left: 5%;
+				background-color: 'none';
+                animation: return1 2s linear 1;
+            }
+            .tool2 img{
+                width: 160%;
+                height:50%;
+            }
+			.tool3{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-86%;
+                left: 5%;
+                animation: return1 2s linear 1;
+            }
+            .tool3 img{
+                width: 100%;
+                height:70%;
+            }
+			.tool4{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-128%;
+                left: 59%;
+                animation: return1 2s linear 1;
+            }
+            .tool4 img{
+                width: 190%;
+                height:100%;
+            }
+			.tool5{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-127%;
+                left: 25%;
+                animation: return1 2s linear 1;
+            }
+            .tool5 img{
+                width: 160%;
+                height:80%;
+            }
+			.tool6{
+                width:50% ;
+                height:50%;
+                position:relative;
+                top:-130%;
+                left: 0%;
+                animation: return1 2s linear 1;
+            }
+            .tool6 img{
+                width: 140%;
+                height:70%;
+            }
+			.tool7{
+                width:50% ;
+                height:50%;
+                position:relative;
+                top:-197%;
+                left: 65%;
+                animation: return1 2s linear 1;
+            }
+            .tool7 img{
+                width: 70%;
+                height:50%;
+            }
+			.tool8{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-220%;
+                left: 74.5%;
+                animation: return1 2s linear 1;
+            }
+            .tool8 img{
+                width: 100%;
+                height:50%;
+            }
+			.tool9{
+                width:20% ;
+                height:20%;
+                position:relative;
+                top:-229%;
+                left: 74.5%;
+                animation: return1 2s linear 1;
+            }
+            .tool9 img{
+                width: 100%;
+                height:50%;
+            }
+			.tool10{
+                width:10% ;
+                height:10%;
+                position:relative;
+                top:-237%;
+                left: 58%;
+                animation: return1 2s linear 1;
+            }
+            .tool10 img{
+                width: 120%;
+                height:120%;
+            }
+			.tool11{
+                width:20% ;
+                height:10%;
+                position:relative;
+                top:-247%;
+                left: 74.5%;
+                animation: return1 2s linear 1;
+            }
+            .tool11 img{
+                width: 100%;
+                height:130%;
+            }
+			.tool12{
+                width:30% ;
+                height:10%;
+                position:relative;
+                top:-254%;
+                left: 6%;
+                animation: return1 2s linear 1;
+            }
+            .tool12 img{
+                width: 160%;
+                height:30%;
+            }
+			.tool13{
+                width:30% ;
+                height:10%;
+                position:relative;
+                top:-261%;
+                left: 6%;
+                animation: return1 2s linear 1;
+            }
+            .tool13 img{
+                width: 160%;
+                height:60%;
+            }
+			@media screen and (max-width: 640px) {
+			.int{
+                width:740px;
+				height:1520px;
+				align-items: center;
+				justify-content: center;
+				z-index:1;
+				margin: 0px auto;
+				background-repeat: no-repeat;
+				background-size: cover;
+				}
+			}
+		</style>
+        <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            function hideDiv(){
+                $("tools").fadeOut(800);
+            }
+            function showDiv(){
+                $("tools").fadeIn(800);
+            }
+        </script>
+	</head>
+	<body id="int">
+		<div class="int_1"><img src="bg-last.png" width="100%" height="100%"></div>
+		<div class="tools">
+			<div class="tool1" onmouseover="setStyle()" ><img src="tool1.png" ></div>
+			<div class="tool2"><img src="tool2.png" ></div>
+			<div class="tool3"><img src="tool3.png" ></div>
+			<div class="tool4"><img src="tool4.png" ></div>
+			<div class="tool5"><img src="tool5.png" ></div>
+			<div class="tool6"><img src="tool6.png" ></div>
+			<div class="tool7"><img src="tool7.png" ></div>
+			<div class="tool8"><img src="tool8.png" ></div>
+			<div class="tool9"><img src="tool9.png" ></div>
+			<div class="tool10"><img src="tool10.png" ></div>
+			<div class="tool11"><img src="tool11.png" ></div>
+			<div class="tool12"><img src="tool12.png" ></div>
+			<div class="tool13"><img src="tool13.png" ></div>
+		</div>
+	</body>
+</html>
